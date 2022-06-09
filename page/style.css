@@ -1,0 +1,143 @@
+.ul {
+    margin-left: 45%;
+}
+
+.blog {
+    text-align: center;
+}
+
+body {
+    margin: 0px;
+    background-color: rgba(201, 247, 255, 0.877);
+}
+
+.ground-colorIN {
+    background-color: white;
+    margin: 0px 70px -20px;
+    padding: 5px 10px 80px;
+}
+
+.popular {
+    background-color: rgb(182, 182, 182);
+    border-radius: 5px;
+}
+
+hr {
+    border: none;
+    background-color: black;
+    height: 2px;
+    margin-top: 60px;
+}
+
+.article:after, .article:before {
+    content: "";
+    display: table;
+}
+
+.article:after {
+    clear: both;
+}
+
+.first-favorites, .last-favorites {
+    border: solid 1px black;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.first-img {
+    width: 150px;
+    height: 140px;
+    float: right;
+    position: relative;
+    bottom: 50px;
+    margin: 5px 5px 5px;
+}
+
+.last-img {
+    width: 150px;
+    height: 140px;
+    float: left;
+    position: relative;
+    top: 5px;
+    margin: 5px 5px 5px;
+}
+
+h1::after, h2::after {
+    background-image: url('image/lampa.jpg');
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 0px 5px -5px;
+    content: "";
+}
+
+.footer-img {
+    width: 20px;
+    height: 20px;
+    line-height: 1px;
+    padding: 6px;
+    position: relative;
+    bottom: 15px;
+}
+
+.up-button {
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    float: right;
+    font-size: 15px;
+    background: rgb(174, 174, 245);
+    border-radius: 20px;
+    box-shadow: 1px 1px 0px 1px;
+}
+
+.conteiner {
+    display: block;
+    width: 80px;
+    height: 20px;
+    padding: 10px;
+    margin: 5px;
+    background-color: rgb(214, 170, 255);
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+.conteiner:target {
+    overflow: visible;
+    height: auto;
+    width: auto;
+    max-width: 100%;
+    background-color: white;
+}
+
+.conteiner:target a {
+    text-decoration: underline;
+    color: black;
+}
+
+footer {
+    background-color: grey;
+    height: 120px;
+    max-width: none;
+    width: 100%;
+    padding-top: 5px;
+}
+
+.footer-p {
+    margin-top: -10px;
+}
+
+h3, .footer-p {
+    font-style: italic;
+}
+
+a:link {
+    text-decoration: none;
+    color: blue;
+}
+
+a:visited {
+    color: blue;
+}
