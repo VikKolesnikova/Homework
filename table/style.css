@@ -7,11 +7,11 @@ body {
 }
 
 p {
-    padding-left: 20px;
+    padding-left: 25px;
 }
 
 h3 {
-    padding-left: 20px;
+    padding-left: 25px;
 }
 
 h3:target {
@@ -41,11 +41,11 @@ a:active {
 }
 
 .backgorund-links {
-    background-color: grey;
+    background-color: rgb(170, 170, 170);
     padding: 15px;
     border-radius: 15px;
     display: inline-block;
-    border: solid 3px;
+    border: solid 5px;
 }
 
 .articles {
@@ -64,8 +64,8 @@ a:active {
 }
 
 .backgorund-art2 {
-    background-color: grey;
-    padding: 3px;
+    background-color: rgb(169, 169, 169);
+    padding: 5px;
     margin-top: 5px;
     border-radius: 5px;
     display: inline-block;
